@@ -1,0 +1,55 @@
+.sticky, 
+.scrolling{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.brxe-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+}
+.brxe-container{
+    display: flex;
+}
+.brxe-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* right */
+.bricks-nav-menu{
+    display: flex;
+}
+
+.bricks-nav-menu a{
+    text-decoration: none;
+}
+
+.bricks-button{
+    background: linear-gradient(90deg, rgba(206,18,215,1) 0%, rgba(117,32,181,1) 51%, rgba(25,152,204,1) 100%);
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: all 2s ease;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.bricks-button:hover{
+    background: linear-gradient(90deg, rgba(206,18,215,1) 0%, rgba(117,32,181,1) 0%, rgba(25,152,204,1) 100%);
+}
+
+#brxe-ounicz{
+    background: linear-gradient(90deg, rgba(206,18,215,1) 0%, rgba(117,32,181,1) 0%, rgba(25,152,204,1) 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
