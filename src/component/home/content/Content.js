@@ -1,12 +1,12 @@
 import "./Content.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Content() {
   return (
     <div id="brxe-zechoz" class="brxe-container">
       <div id="brxe-vdnoer" class="brxe-div"></div>
       <div id="brxe-hmsdrh" class="brxe-block">
-        <div id="brxe-bgbdnv" class="brxe-block absolute">
+        <div id="brxe-bgbdnv" class="brxe-block flex">
           <h1 class="h1-home">
             Unleash your <span class="h1-700 rad-color-1">Creativity</span> with
             the power of <span class="h1-700 rad-color-1">Leonardo Ai </span>
@@ -17,7 +17,7 @@ function Content() {
           </h2>
           <div id="brxe-qkfbcb" class="brxe-block">
             <div id="brxe-fbuord" class="brxe-div">
-              <Link to={"/Login"}>Create an account</Link>
+              <Link to={"/login"}>Create an account</Link>
               {/* <a
                 href="/Login"
                 id="brxe-tvkqjj"
@@ -32,9 +32,7 @@ function Content() {
           </div>
         </div>
         <div id="brxe-ddsjs">
-          <h1 class="h1-home">
-            Image go here
-          </h1>
+          <h1 class="h1-home">Image go here</h1>
         </div>
       </div>
     </div>

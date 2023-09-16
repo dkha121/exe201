@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.png";
 import "./Navbar.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <header id="brx-header" class="sticky scrolling">
@@ -13,7 +13,7 @@ function Navbar() {
               to="/"
               aria-current="page"
               class="brxe-block"
-          >
+            >
               <img
                 src={logo}
                 class="brxe-svg"
@@ -51,28 +51,30 @@ function Navbar() {
                 </ul>
               </nav>
             </div>
-            <div
-              id="brxe-sfbpzd"
-              data-script-id="sfbpzd"
-              class="brxe-code"
-              data-interactions='[{"id":"hahteq","trigger":"click","action":"startAnimation","target":"popup","templateId":"2206","animationType":"slideInRight","animationDuration":".1s"}]'
-              data-interaction-id="507c61"
-            >
-              <svg viewBox="0 0 10 8" width="22">
-                <path
-                  d="M1 1h8M1 4h 8M1 7h8"
-                  stroke="#fff"
-                  stroke-width="1"
-                  stroke-linecap="round"
-                ></path>
-              </svg>
-            </div>
-            <span
-              id="brxe-zihfzv"
-              class="brxe-button btn-bg-prim bricks-button md bricks-background-primary"
-            >
-              Launch App
-            </span>
+            <Link to="/home-page">
+              <div
+                id="brxe-sfbpzd"
+                data-script-id="sfbpzd"
+                class="brxe-code"
+                data-interactions='[{"id":"hahteq","trigger":"click","action":"startAnimation","target":"popup","templateId":"2206","animationType":"slideInRight","animationDuration":".1s"}]'
+                data-interaction-id="507c61"
+              >
+                <svg viewBox="0 0 10 8" width="22">
+                  <path
+                    d="M1 1h8M1 4h 8M1 7h8"
+                    stroke="#fff"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+              </div>
+              <span
+                id="brxe-zihfzv"
+                class="brxe-button btn-bg-prim bricks-button md bricks-background-primary"
+              >
+                Launch App
+              </span>
+            </Link>
           </div>
         </div>
       </div>
