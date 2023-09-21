@@ -3,6 +3,7 @@ import Login from "./component/login/Login";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import HomePage from "./component/HomePage/HomePage";
+import query from "./component/generate"
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,9 @@ function App() {
             <Route path="/login" element={<Login />} />
           </Route>
         </Routes>
+
       </BrowserRouter>
+
     </div>
   );
 }

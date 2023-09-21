@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Image Display</title>
+</head>
+<body>
+    <img id="resultImage" src="" alt="Generated Image">
+    
+    <script>
+        async function query(data) {
+            const response = await fetch(
+                "https://api-inference.huggingface.co/models/prompthero/openjourney",
+                {
+                    headers: { Authorization: "Bearer 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" },
+                    method: "POST",
+                    body: JSON.stringify(data),
+                }
+            );
+            
+            if (response.ok) {
+                const blob = await response.blob();
+                const imageUrl = URL.createObjectURL(blob);
+                
+                // Hiển thị hình ảnh trên trang web
+                const imageElement = document.getElementById("resultImage");
+                imageElement.src = imageUrl;
+            } else {
+                console.error("Error fetching image from API");
+            }
+        }
+
+        // Gọi hàm query để lấy hình ảnh và hiển thị nó
+        const userInput = prompt("Please enter something:");
+        console.log("User input:", userInput);
+        query({ "inputs": userInput });
+    </script>
+</body>
+</html>

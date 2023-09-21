@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.png";
+import logo1 from "./logo1.png";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 function Navbar() {
@@ -15,7 +15,7 @@ function Navbar() {
               class="brxe-block"
             >
               <img
-                src={logo}
+                src={logo1}
                 class="brxe-svg"
                 id="brxe-wyhuhi"
                 fill="none"
@@ -24,7 +24,7 @@ function Navbar() {
               />
               <div id="brxe-qfsnks" class="brxe-div">
                 <div id="brxe-wfbglv" class="brxe-text-basic">
-                  Leonardo
+                  YourMage
                 </div>
                 <div id="brxe-ounicz" class="brxe-text-basic rad-color-full">
                   .Ai

@@ -9,8 +9,7 @@ function FeaturedList() {
           <div className="card-body flex flex-col h-24 bg-gray-900 p-4">
             <h2 className="text-sm">PhotoReal</h2>
             <p className="text-sm whitespace-normal">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudian
-              ...
+              PhotoReal is our latest innovation, a powerful pipeline designed to generate hyper-realistic photos and...
             </p>
           </div>
           <div className="card-footer h-12 bg-gray-900 text-sm flex border-transparent rounded-b-md items-center px-3 ">
@@ -34,13 +33,13 @@ function FeaturedList() {
                 />
               </g>
             </svg>
-            <p>Leonardo</p>
+            <p>YourMage</p>
           </div>
         </div>
         <div className="card h-80 max-w-[18rem] rounded-md mr-4">
           <div className="card-img border-transparent rounded-t-md h-44 w-full bg-cover bg-center bg-no-repeat round bg-[url('https://app.leonardo.ai/img/photoreal-model.webp')] "></div>
           <div className="card-body flex flex-col h-24 bg-gray-900 p-4">
-            <h2 className="text-sm">PhotoReal</h2>
+            <h2 className="text-sm">DreamShaper v7</h2>
             <p className="text-sm whitespace-normal">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudian
               ...
@@ -73,7 +72,7 @@ function FeaturedList() {
         <div className="card h-80 max-w-[18rem] rounded-md mr-4">
           <div className="card-img border-transparent rounded-t-md h-44 w-full bg-cover bg-center bg-no-repeat round bg-[url('https://app.leonardo.ai/img/photoreal-model.webp')] "></div>
           <div className="card-body flex flex-col h-24 bg-gray-900 p-4">
-            <h2 className="text-sm">PhotoReal</h2>
+            <h2 className="text-sm">3D Animation Style</h2>
             <p className="text-sm whitespace-normal">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudian
               ...
@@ -106,7 +105,7 @@ function FeaturedList() {
         <div className="card h-80 max-w-[18rem] rounded-md mr-4">
           <div className="card-img border-transparent rounded-t-md h-44 w-full bg-cover bg-center bg-no-repeat round bg-[url('https://app.leonardo.ai/img/photoreal-model.webp')] "></div>
           <div className="card-body flex flex-col h-24 bg-gray-900 p-4">
-            <h2 className="text-sm">PhotoReal</h2>
+            <h2 className="text-sm">Anime Pastel Dream</h2>
             <p className="text-sm whitespace-normal">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudian
               ...
@@ -139,10 +138,9 @@ function FeaturedList() {
         <div className="card h-80 max-w-[18rem] rounded-md mr-4">
           <div className="card-img border-transparent rounded-t-md h-44 w-full bg-cover bg-center bg-no-repeat round bg-[url('https://app.leonardo.ai/img/photoreal-model.webp')] "></div>
           <div className="card-body flex flex-col h-24 bg-gray-900 p-4">
-            <h2 className="text-sm">PhotoReal</h2>
+            <h2 className="text-sm">RPG v5</h2>
             <p className="text-sm whitespace-normal">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudian
-              ...
+            Anashel returns with another great model, specialising in RPG characters of all kinds.
             </p>
           </div>
           <div className="card-footer h-12 bg-gray-900 text-sm flex border-transparent rounded-b-md items-center px-3 ">
@@ -172,10 +170,9 @@ function FeaturedList() {
         <div className="card h-80 max-w-[18rem] rounded-md mr-4">
           <div className="card-img border-transparent rounded-t-md h-44 w-full bg-cover bg-center bg-no-repeat round bg-[url('https://app.leonardo.ai/img/photoreal-model.webp')] "></div>
           <div className="card-body flex flex-col h-24 bg-gray-900 p-4">
-            <h2 className="text-sm">PhotoReal</h2>
+            <h2 className="text-sm">Absolute Reality v1.6</h2>
             <p className="text-sm whitespace-normal">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudian
-              ...
+            A photorealistic style model from Lykon. Great at all sorts of photorealism.
             </p>
           </div>
           <div className="card-footer h-12 bg-gray-900 text-sm flex border-transparent rounded-b-md items-center px-3 ">
