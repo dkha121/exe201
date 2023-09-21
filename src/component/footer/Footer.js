@@ -1,9 +1,9 @@
-import './Footer.css';
-function Footer(){
-    return(
-        <>
-        <div id="brxe-wrcktb" class="brxe-block">
-        <div id="brxe-ajhxar" class="brxe-block brx-grid">
+import "./Footer.css";
+function Footer() {
+  return (
+    <>
+      <div id="" class="flex justify-center">
+        <div id="brxe-ajhxar" class="flex">
           <div id="brxe-omxkfg" class="brxe-block">
             <h3 id="brxe-ytffse" class="brxe-heading txt-center rad-color-full">
               Cultivate Originality
@@ -33,9 +33,9 @@ function Footer(){
           </div>
         </div>
       </div>
-      <div className='copyright'>©copyright 2023</div>
-      </>
-    );
+      <div className="copyright">©copyright 2023</div>
+    </>
+  );
 }
 
 export default Footer;

@@ -1,7 +1,10 @@
 #brxe-zechoz {
   display: flex;
   justify-content: center;
-  margin-top: 40vh;
+}
+
+#newContent {
+  /* background-color: rgba(214, 81, 169, 0.2); */
 }
 
 #brxe-bgbdnv {
@@ -47,7 +50,7 @@
 }
 .rad-color-2 {
   background-color: var(--bricks-color-otvvmd);
-  background: linear-gradient(81.02deg, #B14BF4 -39.48%, #4D91FF 130.8%);
+  background: linear-gradient(81.02deg, #b14bf4 -39.48%, #4d91ff 130.8%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -55,7 +58,11 @@
 }
 .rad-color-1 {
   background-color: var(--bricks-color-otvvmd);
-  background-image: linear-gradient(81.02deg, var(--bricks-color-bfjcgp) -23.47%, var(--bricks-color-rmttnh) 45.52%);
+  background-image: linear-gradient(
+    81.02deg,
+    var(--bricks-color-bfjcgp) -23.47%,
+    var(--bricks-color-rmttnh) 45.52%
+  );
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -68,11 +75,15 @@ img {
   max-width: 100%;
   outline: none;
   vertical-align: middle;
- 
 }
 .rad-color-full {
   background-color: var(--bricks-color-otvvmd);
-  background-image: linear-gradient(81.02deg, var(--bricks-color-bfjcgp) -23.47%, var(--bricks-color-rmttnh) 45.52%, var(--bricks-color-fpbfbh) 114.8%);
+  background-image: linear-gradient(
+    81.02deg,
+    var(--bricks-color-bfjcgp) -23.47%,
+    var(--bricks-color-rmttnh) 45.52%,
+    var(--bricks-color-fpbfbh) 114.8%
+  );
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
