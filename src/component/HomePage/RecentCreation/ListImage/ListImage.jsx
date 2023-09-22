@@ -2,7 +2,7 @@ import React from "react";
 
 function ListImage() {
   return (
-    <div className="mt-10 flex flex-wrap gap-20 w-full">
+    <div className="mt-10 flex items-start flex-wrap gap-4 w-full mb-10">
       <div className="card-img cursor-pointer rounded-md">
         <div className="h-fit w-72">
           <img

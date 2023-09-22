@@ -4,7 +4,7 @@ import RecentCreation from "./RecentCreation/RecentCreation";
 
 function HomePage() {
   return (
-    <div className="pt-24 px-20">
+    <div className="">
       <FeaturedModels />
       <RecentCreation />
     </div>

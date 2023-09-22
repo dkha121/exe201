@@ -51,7 +51,7 @@ function Navbar() {
                 </ul>
               </nav>
             </div>
-            <Link to="/home-page">
+            <Link to="features">
               <div
                 id="brxe-sfbpzd"
                 data-script-id="sfbpzd"
